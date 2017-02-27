@@ -1,0 +1,14 @@
+uuid: 6defa3cc-b0df-4457-89b9-5a3597ccab04
+name: firstWebPage
+mail: example@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

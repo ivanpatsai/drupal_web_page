@@ -1,0 +1,8 @@
+uuid: 9753d516-de5e-47b6-b6fc-b954e152a350
+langcode: en
+status: true
+dependencies: {  }
+id: pdf_file
+label: 'Pdf file'
+revision: 0
+description: 'Block that allows you to download PDF file'

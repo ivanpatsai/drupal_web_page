@@ -1,0 +1,10 @@
+uuid: c03bf873-54d0-4808-9339-08915a7775ec
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zglzjmYxi0G0ag9MZ02y0LSJOdpWRwJxyP_OvFojFyo
+id: basic
+label: 'Hours and location block'
+revision: 0
+description: ''

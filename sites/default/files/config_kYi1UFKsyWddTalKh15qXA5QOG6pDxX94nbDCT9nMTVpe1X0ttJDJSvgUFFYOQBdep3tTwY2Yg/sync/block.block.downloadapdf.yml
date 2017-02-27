@@ -1,0 +1,25 @@
+uuid: c5c908ed-e434-45ad-a065-385e3c427a27
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pdf_file:4e2c8fca-211a-4188-8300-3320b42f1c25'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: downloadapdf
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:4e2c8fca-211a-4188-8300-3320b42f1c25'
+settings:
+  id: 'block_content:4e2c8fca-211a-4188-8300-3320b42f1c25'
+  label: 'download a pdf'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
