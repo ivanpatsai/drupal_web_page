@@ -1,0 +1,23 @@
+odrupal:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Default library for the odrupal theme'
+    description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the odrupal.libraries.yml file.'
+    scss:
+      style/css/odrupal.css: 'style/scss/odrupal.scss'
+  version: VERSION
+  js:
+    js/odrupal.js: {}
+  css:
+    theme:
+      style/css/odrupal.css: {}
+  dependencies:
+    - core/modernizr
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/backbone
+    - core/matchmedia
+    - core/jquery.once
+
