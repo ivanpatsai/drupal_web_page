@@ -9587,39 +9587,125 @@ p:last-child,
 }
 
 /* line 11, ../scss/style.scss */
-.well.region.region-sidebar-second h2 {
-  font-size: 20px;
-}
-
-/* line 15, ../scss/style.scss */
-#navbar > div > div {
-  width: 100%;
-  float: right;
-}
-
-/* line 19, ../scss/style.scss */
-#block-cdrupal-search {
-  width: 180px;
-  padding: 0;
+body > div.main-container.container.js-quickedit-main-content {
+  height: 100px;
+  background: purple;
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-/* line 24, ../scss/style.scss */
-#navbar > div > div {
-  display: inline-block;
+/* line 20, ../scss/style.scss */
+.last-news {
+  text-align: center;
+  margin: 3em;
+}
+/* line 23, ../scss/style.scss */
+.last-news img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-/* line 28, ../scss/style.scss */
-#block-cdrupal-main-menu > ul > li:nth-child(1) {
-  display: inline-block;
+/* line 30, ../scss/style.scss */
+.user-list {
+  margin-top: 9em;
+  text-align: center;
 }
-
-/* line 31, ../scss/style.scss */
-#block-cdrupal-main-menu > ul > li:nth-child(2) {
-  display: inline-block;
-}
-
 /* line 34, ../scss/style.scss */
-#block-cdrupal-main-menu > ul > li:nth-child(3) {
+.user-list .user-column.views-col {
+  float: left;
+  width: 30% !important;
+  margin: 1.66%;
+  border: 2px solid black;
+}
+/* line 40, ../scss/style.scss */
+.user-list img {
+  border-radius: 100px;
+  border: 2px solid skyblue;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* line 47, ../scss/style.scss */
+.user-list .views-field-name {
+  background-color: lightgrey;
+  border-radius: 10%;
+}
+
+/* line 54, ../scss/style.scss */
+.image-gallery .field-content {
+  float: left;
+  width: 20%;
+}
+/* line 57, ../scss/style.scss */
+.image-gallery .field-content img {
+  margin: auto;
+  display: block;
+}
+
+/* line 65, ../scss/style.scss */
+.user-bio {
+  margin-top: 9em;
+  text-align: center;
+}
+/* line 68, ../scss/style.scss */
+.user-bio img {
+  margin: 0 auto;
+  display: block;
+}
+/* line 73, ../scss/style.scss */
+.user-bio .views-field-name {
+  background-color: lightgrey;
+  border-radius: 10px;
+  width: 30%;
+  margin: 10px auto;
+}
+/* line 78, ../scss/style.scss */
+.user-bio .views-field-name span.views-label {
+  font-size: 13px;
+  font-style: italic;
+}
+/* line 82, ../scss/style.scss */
+.user-bio .views-field-name span.field-content {
+  font-weight: bold;
+  font-size: 18px;
+}
+/* line 87, ../scss/style.scss */
+.user-bio .views-field-field-about-me {
+  text-align: left;
+  width: 30%;
+  margin: 10px auto;
+}
+/* line 91, ../scss/style.scss */
+.user-bio .views-field-field-about-me span {
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+}
+/* line 98, ../scss/style.scss */
+.user-bio .views-field-field-about-me .field-content {
+  text-align: justify;
+}
+
+/* line 105, ../scss/style.scss */
+.newest-node .views-label-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* line 113, ../scss/style.scss */
+.block-views-blocknewest-nodes-block-1 h2 {
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+/* line 120, ../scss/style.scss */
+.block-views-blocknewest-nodes-block-1 h2.node-title {
   display: inline-block;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: bold;
 }
