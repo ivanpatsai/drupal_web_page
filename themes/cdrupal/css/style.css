@@ -9586,115 +9586,153 @@ p:last-child,
   margin-top: 0;
 }
 
-/* line 11, ../scss/style.scss */
-body > div.main-container.container.js-quickedit-main-content {
-  height: 100px;
-  background: purple;
-  margin: 0;
+/* line 9, ../scss/style.scss */
+body {
   padding: 0;
+  margin: 0;
+}
+/* line 12, ../scss/style.scss */
+body div.main-container.container.js-quickedit-main-content {
+  padding: 0;
+  margin: 0;
   width: 100%;
+  height: 200px;
+  background: #D38312;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #D38312, #A83279);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #D38312, #A83279);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: relative;
+}
+/* line 24, ../scss/style.scss */
+body .views-field.views-field-filename a {
+  display: none;
 }
 
-/* line 20, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 .last-news {
   text-align: center;
-  margin: 3em;
+  margin: 20px;
 }
-/* line 23, ../scss/style.scss */
+/* line 35, ../scss/style.scss */
+.last-news .views-field.views-field-title {
+  width: 30%;
+  margin: 0 auto;
+  text-align: justify;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 18px;
+}
+/* line 44, ../scss/style.scss */
 .last-news img {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
+/* line 50, ../scss/style.scss */
+.last-news .views-field-body {
+  width: 30%;
+  margin: 10px auto 0 auto;
+  text-align: justify;
+  font-size: 14px;
+}
 
-/* line 30, ../scss/style.scss */
+/* line 59, ../scss/style.scss */
 .user-list {
-  margin-top: 9em;
+  margin-top: 200px;
   text-align: center;
 }
-/* line 34, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 .user-list .user-column.views-col {
   float: left;
   width: 30% !important;
   margin: 1.66%;
   border: 2px solid black;
 }
-/* line 40, ../scss/style.scss */
-.user-list img {
-  border-radius: 100px;
+/* line 69, ../scss/style.scss */
+.user-list .user-column.views-col img {
+  border-radius: 50px;
   border: 2px solid skyblue;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-/* line 47, ../scss/style.scss */
-.user-list .views-field-name {
+/* line 77, ../scss/style.scss */
+.user-list .user-column.views-col .views-field-name {
   background-color: lightgrey;
   border-radius: 10%;
+  margin-bottom: 5px;
+}
+/* line 83, ../scss/style.scss */
+.user-list .user-column.views-col .views-field-field-about-me {
+  text-align: justify;
+  margin-top: 5px;
 }
 
-/* line 54, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .image-gallery .field-content {
   float: left;
   width: 20%;
 }
-/* line 57, ../scss/style.scss */
+/* line 94, ../scss/style.scss */
 .image-gallery .field-content img {
   margin: auto;
   display: block;
 }
 
-/* line 65, ../scss/style.scss */
+/* line 105, ../scss/style.scss */
 .user-bio {
-  margin-top: 9em;
+  margin-top: 210px;
+  position: relative;
   text-align: center;
 }
-/* line 68, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
 .user-bio img {
   margin: 0 auto;
   display: block;
 }
-/* line 73, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 .user-bio .views-field-name {
   background-color: lightgrey;
   border-radius: 10px;
   width: 30%;
   margin: 10px auto;
 }
-/* line 78, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 .user-bio .views-field-name span.views-label {
   font-size: 13px;
   font-style: italic;
 }
-/* line 82, ../scss/style.scss */
+/* line 124, ../scss/style.scss */
 .user-bio .views-field-name span.field-content {
   font-weight: bold;
   font-size: 18px;
 }
-/* line 87, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .user-bio .views-field-field-about-me {
   text-align: left;
   width: 30%;
   margin: 10px auto;
 }
-/* line 91, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 .user-bio .views-field-field-about-me span {
   text-decoration: underline;
   font-weight: bold;
   font-style: italic;
 }
-/* line 98, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 .user-bio .views-field-field-about-me .field-content {
   text-align: justify;
 }
 
-/* line 105, ../scss/style.scss */
+/* line 145, ../scss/style.scss */
 .newest-node .views-label-title {
   font-weight: bold;
   font-size: 15px;
 }
 
-/* line 113, ../scss/style.scss */
+/* line 152, ../scss/style.scss */
 .block-views-blocknewest-nodes-block-1 h2 {
   font-size: 20px;
   font-style: italic;
@@ -9702,7 +9740,7 @@ body > div.main-container.container.js-quickedit-main-content {
   font-weight: bold;
   margin-bottom: 0;
 }
-/* line 120, ../scss/style.scss */
+/* line 159, ../scss/style.scss */
 .block-views-blocknewest-nodes-block-1 h2.node-title {
   display: inline-block;
   font-style: italic;
